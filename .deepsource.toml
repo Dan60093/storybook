@@ -1,0 +1,18 @@
+version = 1
+
+[[analyzers]]
+name = "javascript"
+enabled = true
+
+  [analyzers.meta]
+  dialect = "typescript"
+  plugins = [
+    "ember",
+    "vue",
+    "react",
+    "meteor",
+    "angularjs",
+    "angular"
+  ]
+  environment = ["nodejs"]
+  style_guide = "standard"
